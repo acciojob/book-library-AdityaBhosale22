@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 20px;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
 }
 
 .book-library {
@@ -12,7 +12,7 @@ body {
     width: 400px;
     border-radius: 5px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
 }
 
 .main-header {
@@ -27,7 +27,7 @@ body {
 .book {
     padding: 20px;
     background-color: white;
-    border-bottom: 15px solid #f2f2f2; 
+    border-bottom: 15px solid #f2f2f2;
 }
 
 .book:last-child {
@@ -39,7 +39,6 @@ body {
     margin: 0 auto 15px auto;
     width: 140px;
     height: auto;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
 .book h2 {
@@ -54,19 +53,13 @@ body {
     color: #777; 
     margin: 0 0 15px 0;
 }
-
-button {
+.book div {
     width: 100%;
-    padding: 10px;
-    background-color: #2ecc71;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    font-size: 14px;
-    cursor: pointer;
+    padding: 10px 0;
+    background-color: rgb(46, 204, 113); 
+    color: rgb(255, 255, 255);
+    border-radius: 4px; 
+    text-align: center;
     font-weight: bold;
-}
-
-button:hover {
-    background-color: #27ae60; 
-}
+    font-size: 14px;
+    box-sizing: border-box; 
